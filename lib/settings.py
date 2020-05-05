@@ -1,5 +1,5 @@
 ############## TELEGRAM BOT ########################
-token = "1109533224:AAE13znQf9kZqTvGlIXPa8IbuO0zO6-yho8"
+token = "1225679690:AAHZHP4spZe2yWtPsHgPnHivbWl2n3kNmG4"
 ############## MSQL DATABASES ######################
 host = "13.53.163.8"
 user = "root"

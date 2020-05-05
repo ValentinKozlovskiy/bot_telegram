@@ -15,7 +15,7 @@ pipeline  {
             steps {
                 echo 'Creating docker image ...'
                 dir('.'){
-                    sh "docker build -t kunets2002/telegrambot . "
+                    sh "docker build -t valikk/telegrambot . "
                 }
             }
         }
@@ -33,7 +33,7 @@ pipeline  {
             steps {
                 echo " ============== pushing image =================="
                 sh '''
-                docker push kunets2002/telegrambot:latest
+                docker push valikk/telegrambot:latest
                 '''
             }
         }
